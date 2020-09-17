@@ -6,11 +6,13 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using RedSocial.Core.Interfaces;
+using RedSocial.Infrastructure.Data;
 using RedSocial.Infrastructure.Repositories;
 
 namespace RedSocial.Api
@@ -28,6 +30,10 @@ namespace RedSocial.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddDbContext<SocialMediaContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("SocialMedia"))
+            );
 
             // Dependencias
             services.AddTransient<IPostRepository, PostRepository>();

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace RedSocial.Infrastructure.Data
+namespace RedSocial.Core.Entities
 {
     public partial class Usuario
     {

@@ -1,5 +1,7 @@
-﻿using RedSocial.Core.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using RedSocial.Core.Entities;
 using RedSocial.Core.Interfaces;
+using RedSocial.Infrastructure.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,19 +12,16 @@ namespace RedSocial.Infrastructure.Repositories
 {
     public class PostRepository : IPostRepository
     {
-        public async Task<IEnumerable<Post>> GetPosts()
+        private readonly SocialMediaContext _contex;
+
+        public PostRepository(SocialMediaContext context)
         {
-            var posts = Enumerable.Range(1, 10).Select(x => new Post
-            {
-                PostId = x,
-                Description = $"Descripcion {x}",
-                Date = DateTime.Now,
-                Image = $"https://misapis.com/{x}",
-                UserId = x * 2
-            });
+            _contex = context;
+        }
 
-            await Task.Delay(10);
-
+        public async Task<IEnumerable<Publicacion>> GetPosts()
+        {
+            var posts = await _contex.Publicacion.ToListAsync();
             return posts;
         }
     }
