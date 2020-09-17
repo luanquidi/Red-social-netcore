@@ -1,0 +1,4 @@
+Este es el comando para generar objetos de acuerdo a
+las tablas que hay en la base de datos
+
+Scaffold-DbContext "Server=(localdb)\MSSQLLocalDB;Database=SocialMedia;Integrated Security = true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data
