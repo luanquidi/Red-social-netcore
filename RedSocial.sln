@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedSocial.Api", "RedSocial.Api\RedSocial.Api.csproj", "{4B304D52-A354-470D-960C-1D1D2A08D6A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSocial.Core", "RedSocial.Core\RedSocial.Core.csproj", "{84942D70-258D-46FC-A47E-69BD4B5D45ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSocial.Infrastructure", "RedSocial.Infrastructure\RedSocial.Infrastructure.csproj", "{26FB2444-E99B-4B85-95C2-F956116C4512}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6B14DAAC-A710-4A99-A45C-31135F66918D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSocial.UnitTests", "RedSocial.UnitTests\RedSocial.UnitTests.csproj", "{80D84AFF-A938-4169-8D1C-113E267F6291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSocial.IntegrationTests", "RedSocial.IntegrationTests\RedSocial.IntegrationTests.csproj", "{99FF28BD-B525-4951-ABF0-9272B87CF9E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B304D52-A354-470D-960C-1D1D2A08D6A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B304D52-A354-470D-960C-1D1D2A08D6A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B304D52-A354-470D-960C-1D1D2A08D6A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B304D52-A354-470D-960C-1D1D2A08D6A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84942D70-258D-46FC-A47E-69BD4B5D45ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84942D70-258D-46FC-A47E-69BD4B5D45ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84942D70-258D-46FC-A47E-69BD4B5D45ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84942D70-258D-46FC-A47E-69BD4B5D45ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26FB2444-E99B-4B85-95C2-F956116C4512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26FB2444-E99B-4B85-95C2-F956116C4512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26FB2444-E99B-4B85-95C2-F956116C4512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26FB2444-E99B-4B85-95C2-F956116C4512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D84AFF-A938-4169-8D1C-113E267F6291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D84AFF-A938-4169-8D1C-113E267F6291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D84AFF-A938-4169-8D1C-113E267F6291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D84AFF-A938-4169-8D1C-113E267F6291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99FF28BD-B525-4951-ABF0-9272B87CF9E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FF28BD-B525-4951-ABF0-9272B87CF9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99FF28BD-B525-4951-ABF0-9272B87CF9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99FF28BD-B525-4951-ABF0-9272B87CF9E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80D84AFF-A938-4169-8D1C-113E267F6291} = {6B14DAAC-A710-4A99-A45C-31135F66918D}
+		{99FF28BD-B525-4951-ABF0-9272B87CF9E4} = {6B14DAAC-A710-4A99-A45C-31135F66918D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79C8EC7B-4E08-4B9E-8D2D-1D554F978011}
+	EndGlobalSection
+EndGlobal

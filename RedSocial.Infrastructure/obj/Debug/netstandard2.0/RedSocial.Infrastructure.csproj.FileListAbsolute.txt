@@ -1,0 +1,12 @@
+C:\projects-practices\netcore\RedSocial\RedSocial.Infrastructure\bin\Debug\netstandard2.0\RedSocial.Infrastructure.deps.json
+C:\projects-practices\netcore\RedSocial\RedSocial.Infrastructure\bin\Debug\netstandard2.0\RedSocial.Infrastructure.dll
+C:\projects-practices\netcore\RedSocial\RedSocial.Infrastructure\bin\Debug\netstandard2.0\RedSocial.Infrastructure.pdb
+C:\projects-practices\netcore\RedSocial\RedSocial.Infrastructure\bin\Debug\netstandard2.0\RedSocial.Core.dll
+C:\projects-practices\netcore\RedSocial\RedSocial.Infrastructure\bin\Debug\netstandard2.0\RedSocial.Core.pdb
+C:\projects-practices\netcore\RedSocial\RedSocial.Infrastructure\obj\Debug\netstandard2.0\RedSocial.Infrastructure.csprojAssemblyReference.cache
+C:\projects-practices\netcore\RedSocial\RedSocial.Infrastructure\obj\Debug\netstandard2.0\RedSocial.Infrastructure.AssemblyInfoInputs.cache
+C:\projects-practices\netcore\RedSocial\RedSocial.Infrastructure\obj\Debug\netstandard2.0\RedSocial.Infrastructure.AssemblyInfo.cs
+C:\projects-practices\netcore\RedSocial\RedSocial.Infrastructure\obj\Debug\netstandard2.0\RedSocial.Infrastructure.csproj.CoreCompileInputs.cache
+C:\projects-practices\netcore\RedSocial\RedSocial.Infrastructure\obj\Debug\netstandard2.0\RedSocial.Infrastructure.csproj.CopyComplete
+C:\projects-practices\netcore\RedSocial\RedSocial.Infrastructure\obj\Debug\netstandard2.0\RedSocial.Infrastructure.dll
+C:\projects-practices\netcore\RedSocial\RedSocial.Infrastructure\obj\Debug\netstandard2.0\RedSocial.Infrastructure.pdb

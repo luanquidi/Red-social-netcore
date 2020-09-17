@@ -1,0 +1,9 @@
+C:\projects-practices\netcore\RedSocial\RedSocial.Core\bin\Debug\netstandard2.0\RedSocial.Core.deps.json
+C:\projects-practices\netcore\RedSocial\RedSocial.Core\bin\Debug\netstandard2.0\RedSocial.Core.dll
+C:\projects-practices\netcore\RedSocial\RedSocial.Core\bin\Debug\netstandard2.0\RedSocial.Core.pdb
+C:\projects-practices\netcore\RedSocial\RedSocial.Core\obj\Debug\netstandard2.0\RedSocial.Core.csprojAssemblyReference.cache
+C:\projects-practices\netcore\RedSocial\RedSocial.Core\obj\Debug\netstandard2.0\RedSocial.Core.AssemblyInfoInputs.cache
+C:\projects-practices\netcore\RedSocial\RedSocial.Core\obj\Debug\netstandard2.0\RedSocial.Core.AssemblyInfo.cs
+C:\projects-practices\netcore\RedSocial\RedSocial.Core\obj\Debug\netstandard2.0\RedSocial.Core.csproj.CoreCompileInputs.cache
+C:\projects-practices\netcore\RedSocial\RedSocial.Core\obj\Debug\netstandard2.0\RedSocial.Core.dll
+C:\projects-practices\netcore\RedSocial\RedSocial.Core\obj\Debug\netstandard2.0\RedSocial.Core.pdb
