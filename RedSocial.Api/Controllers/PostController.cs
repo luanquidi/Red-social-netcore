@@ -20,5 +20,11 @@ namespace RedSocial.Api.Controllers
         {
             return Ok(await _postRepository.GetPosts());
         }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetPost(int id)
+        {
+            return Ok(await _postRepository.GetPost(id));
+        }
     }
 }

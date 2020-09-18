@@ -19,10 +19,17 @@ namespace RedSocial.Infrastructure.Repositories
             _contex = context;
         }
 
-        public async Task<IEnumerable<Publicacion>> GetPosts()
+        public async Task<IEnumerable<Post>> GetPosts()
         {
-            var posts = await _contex.Publicacion.ToListAsync();
+            var posts = await _contex.Posts.ToListAsync();
             return posts;
         }
+
+        public async Task<Post> GetPost(int id)
+        {
+            var post = await _contex.Posts.FirstOrDefaultAsync(x => x.PostId == id);
+            return post;
+        }
+
     }
 }
